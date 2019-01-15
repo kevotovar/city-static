@@ -22,7 +22,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => (
       <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
         <Header siteTitle={data.site.siteMetadata.title} />
 
-        <div className="flex flex-col flex-1 max-w-xl mx-auto w-full">
+        <div className="flex flex-col flex-1 mx-auto w-full">
           {children}
         </div>
 
