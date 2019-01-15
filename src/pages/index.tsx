@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from 'react'
 
-import Layout from "src/components/layout";
-import SEO from "src/components/seo";
-import IndexHero from "./components/IndexHero";
+import Layout from 'src/components/layout'
+import SEO from 'src/components/seo'
+import IndexHero from './components/IndexHero'
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +14,6 @@ const IndexPage = () => (
       <IndexHero />
     </div>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

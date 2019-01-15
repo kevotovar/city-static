@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
 const handleClick = (ev: React.SyntheticEvent<HTMLButtonElement>) => {
-  ev.preventDefault();
-  const element = document.getElementById("nav");
+  ev.preventDefault()
+  const element = document.getElementById('nav')
   if (element) {
-    element.classList.toggle("block");
-    element.classList.toggle("hidden");
+    element.classList.toggle('block')
+    element.classList.toggle('hidden')
   }
-};
+}
 
 const Header = ({ siteTitle }: { siteTitle: string }) => (
   <nav className="bg-blue">
@@ -57,10 +57,10 @@ const Header = ({ siteTitle }: { siteTitle: string }) => (
       </div>
     </div>
   </nav>
-);
+)
 
 Header.defaultProps = {
-  siteTitle: ``
-};
+  siteTitle: ``,
+}
 
-export default Header;
+export default Header
