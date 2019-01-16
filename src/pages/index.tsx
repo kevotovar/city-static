@@ -3,6 +3,7 @@ import * as React from 'react'
 import Layout from 'src/components/layout'
 import SEO from 'src/components/seo'
 import IndexHero from './components/IndexHero'
+import IndexProperties from './components/IndexProperties'
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     />
     <div className="text-center">
       <IndexHero />
+      <IndexProperties />
     </div>
   </Layout>
 )
