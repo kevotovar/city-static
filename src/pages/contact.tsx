@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import contact from 'src/services/contact'
 
-import Layout from '../components/layout'
+import Layout from 'src/components/layout'
 import SEO from '../components/seo'
 
 interface State {
